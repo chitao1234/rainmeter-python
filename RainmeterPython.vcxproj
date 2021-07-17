@@ -83,28 +83,32 @@
     <TargetName>Python</TargetName>
     <OutDir>x32\$(Configuration)\</OutDir>
     <IntDir>x32\$(Configuration)\</IntDir>
+    <ExternalIncludePath>..\Python39-x86\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>..\Python39-x86\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <TargetName>Python</TargetName>
     <OutDir>x64\$(Configuration)\</OutDir>
     <IntDir>x64\$(Configuration)\</IntDir>
-    <ExternalIncludePath>D:\Program Files\Python39\include;..\rainmeter-plugin-sdk;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>D:\Program Files\Python39\libs;..\rainmeter-plugin-sdk;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>..\Python39-amd64\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>..\Python39-amd64\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>Python</TargetName>
     <OutDir>x32\$(Configuration)\</OutDir>
     <IntDir>x32\$(Configuration)\</IntDir>
+    <ExternalIncludePath>..\Python39-x86\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>..\Python39-x86\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>Python</TargetName>
     <OutDir>x64\$(Configuration)\</OutDir>
     <IntDir>x64\$(Configuration)\</IntDir>
-    <ExternalIncludePath>D:\Program Files\Python39\include;..\rainmeter-plugin-sdk;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>D:\Program Files\Python39\libs;..\rainmeter-plugin-sdk;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>..\Python39-amd64\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>..\Python39-amd64\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
