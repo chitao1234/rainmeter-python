@@ -90,7 +90,7 @@ In Property Pages -> VC++ Directories, change Python directories in External Inc
 
 License
 -------
-Licensed under [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
+Licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 Special Thanks
 -------
