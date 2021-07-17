@@ -3,12 +3,15 @@ rainmeter-python
 
 Originally created by [jblume](https://github.com/jblume), now maintained by [glitchassassin](https://github.com/glitchassassin)
 
-Plugin for Rainmeter enabling Python 3.4/3.5 scripting
+New binaries built by [chitao1234](https://github.chitao1234/rainmeter-python)
+
+Plugin for Rainmeter enabling Python 3.4/3.5 scripting (should be able to support later on versions)
 
 Installation
 ------------
+New Releases: [![Github All Releases](https://img.shields.io/github/downloads/chitao1234/rainmeter-python/total.svg)](https://github.com/chitao1234/rainmeter-python/releases)
 
-All Releases: [![Github All Releases](https://img.shields.io/github/downloads/glitchassassin/rainmeter-python/total.svg)](https://github.com/glitchassassin/rainmeter-python/releases)
+Old Releases: [![Github All Releases](https://img.shields.io/github/downloads/glitchassassin/rainmeter-python/total.svg)](https://github.com/glitchassassin/rainmeter-python/releases)
 
 Unzip the DLL for your Python version and copy it to the 'Plugins' folder of your Rainmeter installation.
 
@@ -80,3 +83,15 @@ class Measure:
         con.logout()
         return float(len(msgnums[0].split()))
 ```
+
+Build
+-------
+In Property Pages -> VC++ Directories, change Python directories in External Include Directories and Library Directories to your own, and build it
+
+License
+-------
+Licensed under [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
+
+Special Thanks
+-------
+[GitHub](https://github.com/github/gitignore) for providing ```.gitignore``` file
