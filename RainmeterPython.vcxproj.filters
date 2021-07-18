@@ -3,8 +3,12 @@
   <ItemGroup>
     <ClCompile Include="PythonPlugin.cpp" />
     <ClCompile Include="PyRainmeter.cpp" />
+    <ClCompile Include="PythonPolyfill.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PythonPlugin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PythonPolyfill.h" />
   </ItemGroup>
 </Project>

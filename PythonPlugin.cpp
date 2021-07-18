@@ -18,6 +18,7 @@
 
 #include <Windows.h>
 #include <Python.h>
+#include "PythonPolyfill.h"
 #include "rainmeter-plugin-sdk/API/RainmeterAPI.h"
 
 PyObject* CreateRainmeterObject(void *rm);

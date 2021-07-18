@@ -37,9 +37,13 @@
   <ItemGroup>
     <ClCompile Include="PyRainmeter.cpp" />
     <ClCompile Include="PythonPlugin.cpp" />
+    <ClCompile Include="PythonPolyfill.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PythonPlugin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PythonPolyfill.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{632EA7AE-8356-11E2-BDFE-8A0979957A39}</ProjectGuid>
@@ -131,7 +135,7 @@
     <LinkIncremental>true</LinkIncremental>
     <TargetName>Python</TargetName>
     <LibraryPath>rainmeter-plugin-sdk\API\x64;..\Python34\libs;$(LibraryPath)</LibraryPath>
-    <IncludePath>..\Python34-32\include;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
+    <IncludePath>..\Python34\include;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -155,7 +159,7 @@
     <LinkIncremental>false</LinkIncremental>
     <TargetName>Python</TargetName>
     <LibraryPath>rainmeter-plugin-sdk\API\x64;..\Python34\libs;$(LibraryPath)</LibraryPath>
-    <IncludePath>..\Python34-32\include;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
+    <IncludePath>..\Python34\include;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
