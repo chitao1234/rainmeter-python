@@ -1,20 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PythonPlugin", "RainmeterPython.vcxproj", "{632EA7AE-8356-11E2-BDFE-8A0979957A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_XP|Win32 = Debug_XP|Win32
+		Debug_XP|x64 = Debug_XP|x64
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		Release_XP|Win32 = Release_XP|Win32
+		Release_XP|x64 = Release_XP|x64
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug_XP|Win32.ActiveCfg = Debug_XP|Win32
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug_XP|Win32.Build.0 = Debug_XP|Win32
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug_XP|x64.ActiveCfg = Debug_XP|x64
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug_XP|x64.Build.0 = Debug_XP|x64
 		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug|Win32.ActiveCfg = Debug|Win32
 		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug|Win32.Build.0 = Debug|Win32
 		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug|x64.ActiveCfg = Debug|x64
 		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Debug|x64.Build.0 = Debug|x64
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Release_XP|Win32.ActiveCfg = Release_XP|Win32
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Release_XP|Win32.Build.0 = Release_XP|Win32
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Release_XP|x64.ActiveCfg = Release_XP|x64
+		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Release_XP|x64.Build.0 = Release_XP|x64
 		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Release|Win32.ActiveCfg = Release|Win32
 		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Release|Win32.Build.0 = Release|Win32
 		{632EA7AE-8356-11E2-BDFE-8A0979957A39}.Release|x64.ActiveCfg = Release|x64
@@ -22,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17F6303-2751-4F82-96A4-9C6E002F72DE}
 	EndGlobalSection
 EndGlobal
