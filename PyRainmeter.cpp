@@ -18,7 +18,7 @@
 
 #include <Windows.h>
 #include <Python.h>
-#include "structmember.h"
+#include <structmember.h>
 #include "rainmeter-plugin-sdk/API/RainmeterAPI.h"
 
 typedef struct RainmeterObject {
